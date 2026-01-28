@@ -28,3 +28,6 @@ $lion->setEstMalade();
 echo ($lion->getEstMalade() ? "pas malade" : "malade")."<br>";
 $lion->seSoigner();
 echo ($lion->getEstMalade() ? "pas malade" : "malade")."<br>";
+
+// test supplementaire
+echo $enclos->entretenir();
