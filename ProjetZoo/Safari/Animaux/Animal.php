@@ -1,5 +1,5 @@
 <?php
-namespace Safari\Animal;
+namespace Safari\Animaux;
 class Animal {
     protected string $nom;
     protected int $poids;

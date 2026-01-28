@@ -1,6 +1,6 @@
 <?php
 
-namespace Safari\Animal;
+namespace Safari\Animaux;
 
 class Perroquet extends Animal{
     public function crier(){

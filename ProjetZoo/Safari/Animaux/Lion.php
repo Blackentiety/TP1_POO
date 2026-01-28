@@ -1,8 +1,8 @@
 <?php
-namespace Safari\Animal;
+namespace Safari\Animaux;
 
 class Lion extends Animal {
-    public int $niveauAgressivite;
+    public $niveauAgressivite;
 
     public function __construct($nom, $poids) {
         parent::__construct($nom, $poids);
