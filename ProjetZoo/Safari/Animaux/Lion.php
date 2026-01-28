@@ -1,5 +1,5 @@
 <?php
-use Safari\Animal\Animal;
+namespace Safari\Animal;
 
 class Lion extends Animal {
     public int $niveauAgressivite;
