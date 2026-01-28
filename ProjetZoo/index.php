@@ -31,3 +31,6 @@ echo ($lion->getEstMalade() ? "pas malade" : "malade")."<br>";
 
 // test supplementaire
 echo $enclos->entretenir();
+echo $lion->manger();
+echo $lion->chasser();
+echo $perroquet1->voler();
