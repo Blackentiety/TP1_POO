@@ -25,9 +25,9 @@ echo $enclos->ajouterAnimaux($perroquet3);
 echo $enclos->visiteGuidee();
 
 $lion->setEstMalade();
-echo ($lion->getEstMalade() ? "pas malade" : "malade")."<br>";
+echo ($lion->getEstMalade() ? "malade" : "pas malade")."<br>";
 $lion->seSoigner();
-echo ($lion->getEstMalade() ? "pas malade" : "malade")."<br>";
+echo ($lion->getEstMalade() ? "malade" : " pas malade")."<br>";
 
 // test supplementaire
 echo $enclos->entretenir();
