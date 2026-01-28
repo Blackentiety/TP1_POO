@@ -5,3 +5,7 @@ spl_autoload_register(function ($class) {
     if (file_exists($file)) require $file;
 });
 
+use Safari\Animal\Animal;
+use Safari\Animal\Lion;
+use Safari\Animal\Perroquet;
+use Safari\Parc\Enclos;
