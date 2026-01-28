@@ -24,7 +24,7 @@ class Animal {
     }
 
     public function manger(){
-        return "L'animal mange";
+        return "L'animal mange"."<br>";
     }
 
     public function  seSoigner(){
@@ -32,6 +32,6 @@ class Animal {
     }
 
     public function crier(){
-        return "GRR";
+        return "GRR"."<br>";
     }
 }

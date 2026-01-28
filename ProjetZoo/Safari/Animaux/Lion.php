@@ -10,10 +10,10 @@ class Lion extends Animal {
     }
 
     public function crier(){
-        return "ROAAAAR ! " . $this->getNom()." rugit férocement.";
+        return "ROAAAAR ! " . $this->getNom()." rugit férocement."."<br>";
     }
 
     public function chasser(){
-        return "le lion part en chasse";
+        return "le lion part en chasse"."<br>";
     }
 }

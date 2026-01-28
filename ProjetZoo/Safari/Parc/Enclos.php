@@ -40,16 +40,16 @@ class Enclos {
     public function ajouterAnimaux($nouvelleAnimal) {
         $nbAnimaux = count($this->getAnimaux());
         if($this->getCapaciteMax() == $nbAnimaux) {
-            return "Erreur : Enclos plein !";
+            return "Erreur : Enclos plein !"."<br>";
         } else {
             $this->animaux[] = $nouvelleAnimal;
-            return "Bienvenue à".$nouvelleAnimal->getNom();
+            return "Bienvenue à ".$nouvelleAnimal->getNom()."<br>";
         }
     }
 
     public function entretenir(){
         $this->setProprete("Propre");
-        return "Nettoyage en cours...";
+        return "Nettoyage en cours..."."<br>";
     }
 
     public function visiteGuidee(){
