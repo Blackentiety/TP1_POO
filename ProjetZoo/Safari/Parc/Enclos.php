@@ -53,8 +53,8 @@ class Enclos {
     }
 
     public function visiteGuidee(){
-        $message = "Voici les animaux de l'enclos : <br>"
-        foreach($this->animaux as $animal){
+        $message = "Voici les animaux de l'enclos : <br>";
+        foreach($this->getAnimaux() as $animal){
             $message .=$animal->crier()."<br>";
         }
         return $message;
