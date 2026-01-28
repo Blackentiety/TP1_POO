@@ -26,7 +26,7 @@ class Enclos {
 
     public function setProprete($etat) {
         if ($etat === "Propre" || $etat === "Sale") {
-            $this->proprete = $proprete;
+            $this->proprete = $etat;
         } else {
             echo " Erreur : L'état '$etat' n'est pas valide. Mis à 'Sale' par défaut.<br>";
             $this->proprete = "Sale";
